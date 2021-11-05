@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ćinkse-Moulden UI Design</title>
+  </head>
+  <body>
+   <header>
+      <img src="https://www.diekaes.de/wp-content/uploads/2018/01/logo-placeholder.png" alt="Ćinske UI Design" >
+    <nav>
+      <a href="#">Latest Work</a>
+      <a href="#">Portfolio</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  
+    <footer>
+      <div></div>
+    </footer>
+  </body>
+</html>
