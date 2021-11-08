@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>About Me</title>
+  </head>
+  <body>
+    <header>
+      <img src="https://www.diekaes.de/wp-content/uploads/2018/01/logo-placeholder.png" alt="Ćinske UI Design" >
+     <nav>
+      <ol>
+       <li><a href="index.html">Latest Work</a></li>
+       <li><a href="portfolio.hmtl">Portfolio</a></li>
+       <li><a href="about.hmtl">About</a></li>
+       <li><a href="#contact">Contact</a></li>
+      </ol>
+     </nav>
+    </header>
+     <main>
+      <div> <!--row-->
+       <div> <!--column left-->
+        <h1> Naturally Case Study </h>
+        <h3> Concept and Objectives </h3>
+        <p>Naturally was conceived from the desire to share the vibrant world of natural wine and to fill in the gap of location-based services currently on the market. Naturally offers users a fun, easy platform to organise winery tastings and tours abroad,
+           whilst providing information on local natural wine stores & bars</p>
+        <p>Naturally was created, designed and completed as a solo initiative. My roles covered market research, creative direction and UX/UI Design. The project took one month to complete and was a part of Career Foundry’s curriculum.
+           The objective was to design a mobile-first, responsive web app that demonstrates the various breakpoints for mobile, tablet and desktop devices </p>
+       </div> <!--column left end-->
+       <div> <!--column right-->
+       <picture>
+        <source srcset="img/naturally/naturallylanding.jpg" media="(max-width:767px)">
+        <img src="img/naturally/naturallylanding.jpg" alt="presspic">
+       </picture>
+       </div> <!--column right end-->
+      </div> <!--row end-->
+       <div> <!--row-->
+        <h3>UX Research </h3>
+        <p> I was able to define my user-personas after several short rounds of interviews.
+            From the information given, I created a concise list of user-needs, pain points and potential obstacles. All participants associated visiting a winery as a day-trip activity, not for a weekend getaway. This significantly altered my initial concept from a “vineyard-airbnb”
+            to focusing on a product that provided information on booking wine tastings and finding nearby wine stores </p>
+        <picture>
+          <source srcset="img/naturally/persona01.jpg" media="(max-width:767px)">
+          <img src="img/naturally/persona01.jpg" alt="presspic">
+        </picture>
+        <picture>
+          <source srcset="img/naturally/persona02.jpg" media="(max-width:767px)">
+          <img src="img/naturally/persona02.jpg" alt="presspic">
+        </picture>
+       </div>  <!--row end-->
+       <div> <!--row-->
+        <h3>User Flow </h3>
+        <p> The user flow provided a blueprint for identifying all the pathways taken in Naturally.
+            The main challenge to overcome in this step was to keep the flow simple. This was achieved by continuously referring back to the user goals establish in the research phase </p>
+        <picture>
+          <source srcset="img/naturally/naturallyuserflow.jpg" media="(max-width:767px)">
+          <img src="img/naturally/naturallyuserflow.jpg" alt="presspic">
+        </picture>
+       </div>  <!--row end-->
+       <div> <!--row-->
+        <h3>Mid Fidelity Wireframes </h3>
+        <p>Mid-fidelity wireframes enabled the project to take its shape and structural direction </p>
+        <div> <!--row-->
+         <div> <!--column left-->
+          <h2> Landing Page </h2>
+          <picture>
+            <source srcset="img/naturally/midwirelanding.jpg" media="(max-width:767px)">
+            <img src="img/naturally/midwirelanding.jpg" alt="presspic">
+          </picture>
+         </div> <!--column left end-->
+         <div> <!--column right-->
+          <h2> Results Page </h2>
+          <picture>
+            <source srcset="img/naturally/midwireresults.jpg" media="(max-width:767px)">
+            <img src="img/naturally/midwireresults.jpg" alt="presspic">
+          </picture>
+         </div> <!--column right end-->
+        </div>  <!--row end-->
+        <div> <!--row-->
+         <div> <!--column left-->
+          <h2> Map </h2>
+          <picture>
+            <source srcset="img/naturally/midwiremap.jpg" media="(max-width:767px)">
+            <img src="img/naturally/midwiremap.jpg" alt="presspic">
+          </picture>
+         </div> <!--column left end-->
+         <div> <!--column right-->
+          <h2> Selected Winery </h2>
+          <picture>
+            <source srcset="img/naturally/midwirewinery.jpg" media="(max-width:767px)">
+            <img src="img/naturally/midwirewinery.jpg" alt="presspic">
+          </picture>
+         </div> <!--column right end-->
+        </div>  <!--row end-->
+        <div> <!--row-->
+         <h3>Style Guide </h3>
+         <p> Translating the moodboard into a style guide proved more challenging than expected.
+             The difficulty was using vibrant colours without distracting the user from their intended goals.
+             After several rounds experimenting with different layouts and combinations, a refined, ‘less is more’ approach was implemented.</p>
+        <div> <!--column left-->
+         <h2> Colour Palette </h2>
+          <picture>
+           <source srcset="img/naturally/colourpalette.jpg" media="(max-width:767px)">
+           <img src="img/naturally/colourpalette.jpg" alt="presspic">
+          </picture>
+        <div> <!--middle-->
+         <h2> Typography </h2>
+          <ul>
+          <li>Monserrat</li>
+          <li>Naturally 32pt </li>
+          <li>Naturally 24pt </li>
+          <li>Poppins </li>
+          <li>Headings, SemiBold 24pt </li>
+          <li>Sub Headings, Medium 18-24pt </li>
+          <li>Sub Headings, Light 18-24pt </li>
+          <li>Captions, Medium 15pt </li>
+          <li> Body Copy, Regular 15pt </li>
+         </ul>
+        </div> <!--middle end-->
+         <div> <!--column right-->
+         <h2> UI Elements </h2>
+          <picture>
+            <source srcset="img/naturally/vineyards.jpg" media="(max-width:767px)">
+            <img src="img/naturally/vineyards.jpg" alt="presspic">
+          </picture>
+          <picture>
+            <source srcset="img/naturally/visitstores.jpg" media="(max-width:767px)">
+            <img src="img/naturally/visitstores.jpg" alt="presspic">
+          </picture>
+          <picture>
+            <source srcset="img/naturally/navbar.jpg" media="(max-width:767px)">
+            <img src="img/naturally/navbar.jpg" alt="presspic">
+          </picture>
+          <picture>
+            <source srcset="img/naturally/filter.jpg" media="(max-width:767px)">
+            <img src="img/naturally/filter.jpg" alt="presspic">
+          </picture>
+          <picture>
+            <source srcset="img/naturally/pricetag.jpg" media="(max-width:767px)">
+            <img src="img/naturally/pricetag.jpg" alt="presspic">
+          </picture>
+          <picture>
+            <source srcset="img/naturally/zoom.jpg" media="(max-width:767px)">
+            <img src="img/naturally/zoom.jpg" alt="presspic">
+          </picture>
+          </div> <!--column right end-->
+        </div>  <!--row end-->
+        <div> <!--row-->
+         <h3>Retrospect </h3>
+         <p>The challenge was to simplify the process of locating natural winemakers and booking wine tours. I accomplished this by designing clear navigational elements, avoiding technical language and utilising a strong visual identity that was already familiar to
+            natural wine marketing</p>
+         <p>Important Takeaways</p>
+          <ul>
+          <li>Less is more when utilising a bright, vibrant aesthetic</li>
+          <li>Experiment with various layouts in order to solve design problems</li>
+          <li>The importance UX writing. Avoid using ambiguous words for calls to action</li>
+          <li>Obtain feedback from users & colleagues early in the process to identify potential problems and to avoid expensive corrections in the final stages of design. </li>
+          </ul>
+        </div>  <!--row end-->
+        <div> <!--row-->
+         <h3>Responsive Home Page </h3>
+         <picture>
+           <source srcset="img/naturally/naturallylanding.jpg" media="(max-width:767px)">
+           <img src="img/naturally/naturallylanding.jpg" alt="presspic">
+         </picture>
+         <picture>
+           <source srcset="img/naturally/naturallytablet.jpg" media="(max-width:767px)">
+           <img src="img/naturally/naturallylandingtablet.jpg" alt="presspic">
+         </picture>
+         <picture>
+           <source srcset="img/naturally/naturallylandingdesktop.jpg" media="(max-width:767px)">
+           <img src="img/naturally/naturallylandingdesktop.jpg" alt="presspic">
+         </picture>
+        </div>  <!--row end-->
+        <div> <!--row-->
+         <h3>Responsive Maps Page </h3>
+         <picture>
+           <source srcset="img/naturally/naturallymaps.jpg" media="(max-width:767px)">
+           <img src="img/naturally/naturallymaps.jpg" alt="presspic">
+         </picture>
+         <picture>
+           <source srcset="img/naturally/naturallymapstablet.jpg" media="(max-width:767px)">
+           <img src="img/naturally/naturallymapstablet.jpg" alt="presspic">
+         </picture>
+         <picture>
+           <source srcset="img/naturally/naturallymapsdesktop.jpg" media="(max-width:767px)">
+           <img src="img/naturally/naturallymapsdesktop.jpg" alt="presspic">
+         </picture>
+        </div>  <!--row end-->
+       </div>  <!--row end-->
+     </main>
+    <footer>
+     <div>
+      <h3> Get in touch </h3>
+       <p> Want to collaborate on a project?
+       </p>
+        <div>
+         <a href="mailto:paul@tresorberlin.com">Email me</a>
+        </div>
+        <div>
+          <a href="LINKEDIN-URL" target="_blank">
+            <img src="http://via.placeholder.com/32x32">
+          </a>
+          <a href="TWITTER-URL" target="_blank">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-.139 9.237c.209 4.617-3.234 9.765-9.33 9.765-1.854 0-3.579-.543-5.032-1.475 1.742.205 3.48-.278 4.86-1.359-1.437-.027-2.649-.976-3.066-2.28.515.098 1.021.069 1.482-.056-1.579-.317-2.668-1.739-2.633-3.26.442.246.949.394 1.486.411-1.461-.977-1.875-2.907-1.016-4.383 1.619 1.986 4.038 3.293 6.766 3.43-.479-2.053 1.08-4.03 3.199-4.03.943 0 1.797.398 2.395 1.037.748-.147 1.451-.42 2.086-.796-.246.767-.766 1.41-1.443 1.816.664-.08 1.297-.256 1.885-.517-.439.656-.996 1.234-1.639 1.697z"/></svg>
+          </a>
+          <a href="LINKEDIN-URL" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+             <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+          </a>
+          <a href="BEHANCE-URL" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M8.228 15.01h-2.228v-2.01h2.261c1.878 0 2.003 2.01-.033 2.01zm6.758-2.677h3.018c-.117-1.715-2.73-1.977-3.018 0zm-6.804-3.333h-2.182v2h2.389c1.673 0 1.937-2-.207-2zm15.818-4v14c0 2.761-2.238 5-5 5h-14c-2.762 0-5-2.239-5-5v-14c0-2.761 2.238-5 5-5h14c2.762 0 5 2.239 5 5zm-10 3h5v-1h-5v1zm-3.552 3.618c1.907-.974 1.837-4.55-1.813-4.604h-4.635v9.978h4.311c4.522 0 4.445-4.534 2.137-5.374zm9.487.602c-.274-1.763-1.528-2.95-3.583-2.95-2.094 0-3.352 1.34-3.352 3.947 0 2.631 1.367 3.783 3.416 3.783s3.106-1.135 3.4-2h-2.111c-.736.855-2.893.521-2.767-1.353h5.06c.01-.634-.012-1.089-.063-1.427z"/></svg>
+          </a>
+          <p>Copyright Paul Ćinkse-Moulden 2021</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
