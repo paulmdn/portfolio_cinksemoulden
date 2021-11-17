@@ -51,10 +51,12 @@
           <source srcset="img/naturally/persona01.jpg" media="(max-width:767px)">
           <img src="img/naturally/persona01.jpg" alt="presspic">
          </picture>
-         <picture>
-          <source srcset="img/naturally/persona02.jpg" media="(max-width:767px)">
-          <img src="img/naturally/persona02.jpg" alt="presspic">
-         </picture>
+         <div> <!--row-->
+          <picture>
+           <source srcset="img/naturally/persona02.jpg" media="(max-width:767px)">
+           <img src="img/naturally/persona02.jpg" alt="presspic">
+          </picture>
+         </div>  <!--row end-->
         </div>  <!--row end-->
        <div> <!--row-->
         <h3>User Flow </h3>

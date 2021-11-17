@@ -32,6 +32,10 @@ padding-left: 5px;
 padding: 10px 5px; Adds 10px to top & bottom and 5px to left and right
 padding: 10px 5px 15px 5px;  Adds 10px top, 5px right, 15px bottom, 5px left
 */
+/*animation: [animation-name] [animation-duration] [animation-timing-function]
+[animation-delay] [animation-iteration-count] [animation-direction]
+[animation-fill-mode] [animation-play-state]; */
+
 html {scroll-behavior: smooth;}
 * {
   box-sizing: border-box;
@@ -123,7 +127,10 @@ a:active { /* selected link */
 header {
   background-color: #B0BEC5;
   text-align: center;
-  padding: 10px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
   margin: 10px;
   box-shadow: inset -2px -3px 3px 0px rgba(50, 50, 50, 0.75);
 }
@@ -132,7 +139,12 @@ header {
   padding: 0 15px;
 }
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0px; /* 25px top and bottom, 0 left and right */
+}
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
 }
 .logo {
   max-width: 250px;
@@ -153,7 +165,7 @@ nav > ul > li > a {
 }
 #hero {
   background-color: #B0BEC5;
-  padding: 20px 0;
+  padding: 10px 0;
   margin: 10px;
   display: inline-block;
   width: 100%;
@@ -164,4 +176,26 @@ nav > ul > li > a {
   margin: 10px;
   display: inline-block;
   width: 100%;
+}
+@media only screen and (min-width: 640px) {
+  header {
+  text-align: unset;
+  padding: 20px 0 13px;
+}
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  [class*="col-"] {
+  float: left;
+}
+  .col-md-6 {
+  width: 50%;
+}
+}
+@media only screen and (min-width: 1024px) {
+}
+@media only screen and (min-width: 1440px) {
 }
