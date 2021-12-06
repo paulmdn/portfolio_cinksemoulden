@@ -127,7 +127,6 @@ a:active { /* selected link */
 
 header {
   background-color: #B0BEC5;
-  text-align: center;
   padding-top: 0px;
   padding-right: 10px;
   padding-bottom: 0px;
@@ -158,7 +157,6 @@ nav > ul {
   padding: 0;
 }
 nav > ul > li {
-  display: inline-block;
   width 100%;
 }
 nav > ul > li > a {
@@ -166,6 +164,30 @@ nav > ul > li > a {
   text-transform: uppercase;
   font-weight: 700;
   color: #4a4a4a;
+}
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0
+}
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
+}
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
 }
 #work {
   background-color: #B0BEC5;
@@ -188,16 +210,66 @@ nav > ul > li > a {
   height: auto;
 }
 
-@media only screen and (min-width: 640px) {
+[class*="col-"] {
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+.reverseimg [class*="col-"] {
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+@media only screen and (min-width: 641px) {
   header {
   text-align: unset;
   padding: 20px 0 13px;
 }
   nav {
+    display: inline-block;
     width: auto;
     float: right;
     margin-top: 4px;
   }
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+}
 
   [class*="col-"] {
   float: left;
@@ -213,39 +285,9 @@ width: 41.66%;
 width: 58.33%;
 }
 
-@keyframes color-change {
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
-}
-@keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(400px,50px);}
-}
-@keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
-}
-.sun {
- animation-duration: 4s;
- animation-name: color-change;
- animation-iteration-count: infinite;
- animation-direction: alternate;
- animation-timing-function: linear;
-}
-.cloud-front {
-  animation-duration: 10s;
-  animation-name: cloud-move;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-
-}
-.cloud-back {
-  animation: 24s cloud-move-reverse infinite alternate linear;
-
-}
 @media only screen and (min-width: 1024px) {
+
 }
 @media only screen and (min-width: 1440px) {
+
 }

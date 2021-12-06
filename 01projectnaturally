@@ -6,22 +6,28 @@
    <link rel="stylesheet" type="text/css" href="css/style.css">
    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <script src="https://kit.fontawesome.com/b138aa51fd.js" crossorigin="anonymous"></script>
+
  <title>Ćinkse-Moulden UI Design</title>
 </head>
 <body>
   <header>
     <div class="container">
-    <source srcset="img/home/logo.svg" media="(max-width:767px)">
-    <img class="logo" src="img/home/logo.svg" alt="cinske ui design" />
-  <nav>
-   <ul class="navigation">
-    <li><a href="index.html" class="menu">Latest Work</a></li>
-    <li><a href="01projectnaturally.html" class="menu">Portfolio</a></li>
-    <li><a href="about.html" class="menu">About</a></li>
-    <li><a href="#contact"class="menu">Contact</a></li>
-   </ul>
-  </nav>
-  </header>
+     <div class="navtoggle" id="myNavtoggle">
+      <source srcset="img/home/logo.svg" media="(max-width:150px)">
+      <img class="logo" src="img/home/logo.svg" alt="cinske ui design" />
+
+   <nav>
+    <ul class="navigation">
+     <li><a href="index.html" class="menu">Home</a></li>
+     <li><a href="01projectnaturally.html" class="menu">Case Studies</a></li>
+     <li><a href="about.html" class="menu">About</a></li>
+     <li><a href="#contact"class="menu">Contact</a></li>
+     <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+    </ul>
+   </nav>
+  </div>
+ </header>
    <main>
     <div id="hero">
      <div class="container"> <!--row-->
