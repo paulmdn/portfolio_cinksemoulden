@@ -42,135 +42,57 @@ html {scroll-behavior: smooth;}
 }
 body {
   background-color: #FAFAFA;
-}
-body {
  font-family: 'Roboto', sans-serif;
-}
-body {
-  font-size: 16px; /* Sets the font size to 16px */
-  font-weight: 300; /* Sets the font weight to 300 */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
   color: #4a4a4a;
 }
 
-h1, h2, h3, h4 {
-  line-height: 1.4;
-}
-h1 {
-  font-size: 2.25em;
-  font-weight: 700;
-}
+/*place colour palette here */
 
-h2 {
-  font-size: 1.75em;
-  font-weight: 700;
-}
-
-h3 {
-  font-size: 1.35em;
-  font-weight: 400;
-}
-h4 {
-  font-size: 1.05em;
-  font-weight: 400;
-}
-img {
-  width: 100%;
-}
-
-a {
-  color: #ECEFF1;
-  text-decoration: none; /* No underlining */
-}
-nav > ul > li > a:visited { /* visited link */
-  color: #ECEFF1;
-}
-a:hover,
-a:focus {
-  color: #455A64;
-  text-decoration: underline; /* Underlining when hovering over a link */
-}
-a:active { /* selected link */
-  color: #994c30;
-}
-
-.button:hover {
-  opacity: 0.8;
-  text-decoration: none;
-}
-.button {
-  display: inline-block;
-  background-color: #263238;
-  color: #CFD8DC;
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #994c30; /* width of the border, type, color */
-  transition-duration: : 0.2s opacity;
-}
-.button.contact {
-  background-color: transparent;
-  color: #607D8B;
-  text-transform: uppercase;
-  border: 2px solid #607D8B;
-}
-.button.contact:hover {
-  background-color: #ff7f50;
-  color: #ffffff;
-}
-.menu {
-  color: #37474F
-}
-.menu:visited {
-  color: #212121
-}
+/* ---- Nav header section ---- */
 
 header {
   background-color: #B0BEC5;
-  padding-top: 0px;
+  padding-top: 20px;
   padding-right: 10px;
   padding-bottom: 0px;
   padding-left: 10px;
   margin: 10px;
+  text-align: center;
   box-shadow: inset -2px -3px 3px 0px rgba(50, 50, 50, 0.75);
 }
-/* Layout styling */
-.container {
-  padding: 0 15px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+
+nav {
+  display: inline-block;
+  width: 100%;
 }
-.row {
-  margin: 25px; /* 25px top and bottom, 0 left and right */
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-.logo {
-  max-width: 250px;
-}
+
 nav > ul {
   list-style-type: none;
   padding: 0;
 }
+
 nav > ul > li {
   width 100%;
 }
+
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
   color: #4a4a4a;
 }
+
 .navtoggle li:not(:last-child) {
   display: none;
 }
+
 .navtoggle, .navtoggle.responsive {
   position: relative;
 }
+
 .navtoggle li .icon {
   position: absolute;
   right: 0;
@@ -189,6 +111,114 @@ nav > ul > li > a {
 .navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
+
+nav > ul > li > a:visited { /* visited link */
+  color: #ECEFF1;
+  text-decoration: underline;
+}
+
+nav > ul > li > a:hover {
+  color: #455A64;
+  text-decoration: underline;
+}
+
+nav > ul > li > a:focus {
+  color: #455A64;
+  text-decoration: SemiBold;
+}
+
+nav > ul > li > a:active {
+  color: #994c30;
+  text-decoration: none;
+}
+
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.35em;
+  font-weight: 400;
+  text-decoration: underline;
+}
+h4 {
+  font-size: 1.05em;
+  font-weight: 400;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+a {
+  color: #ECEFF1;
+  text-decoration: none; /* No underlining */
+}
+
+a:hover,
+a:focus {
+  color: #455A64;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+a:active {
+  color: #994c30;
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  background-color: #263238;
+  color: #CFD8DC;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30; /* width of the border, type, color */
+  transition-duration: : 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #607D8B;
+  text-transform: uppercase;
+  border: 2px solid #607D8B;
+}
+
+.button.contact:hover {
+  background-color: #ff7f50;
+  color: #ffffff;
+}
+
+.menu {
+  color: #37474F
+}
+.menu:visited {
+  color: #212121
+}
+
+
+/* Layout styling */
+
 #work {
   background-color: #B0BEC5;
   padding: 10px 0;
@@ -196,6 +226,7 @@ nav > ul > li > a {
   display: inline-block;
   width: 100%;
 }
+
 #aboutwork {
   background-color: #B0BEC5;
   padding: 10px 0;
@@ -210,79 +241,143 @@ nav > ul > li > a {
   height: auto;
 }
 
+ .hero {
+   margin: 25px;
+   padding-left: 10px;
+ }
+
+footer {
+  background-color: #B0BEC5;
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+.icons {
+    padding-top: 20px;
+}
+
+
+/* --------- Columns ---------- */
+
 [class*="col-"] {
   padding-left: 10px;
   padding-right: 10px;
   float: left;
 }
+
 .reverseimg [class*="col-"] {
   padding-left: 10px;
   padding-right: 10px;
   float: left;
 }
+
 .col-1 {
   width: 8.33%;
 }
+
 .col-2 {
   width: 16.66%;
 }
+
 .col-3 {
   width: 25%;
 }
+
 .col-4 {
   width: 33.33%;
 }
+
 .col-5 {
   width: 41.66%;
 }
+
 .col-6 {
   width: 50%;
 }
+
 .col-7 {
   width: 58.33%;
 }
+
 .col-8 {
   width: 66.66%;
 }
+
 .col-9 {
   width: 75%;
 }
+
 .col-10 {
   width: 83.33%;
 }
+
 .col-11 {
   width: 91.66%;
 }
+
 .col-12 {
   width: 100%;
 }
-@media only screen and (min-width: 641px) {
+
+.row {
+  margin: 25px; /* 25px top and bottom, 0 left and right */
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px
+}
+
+/* ------- Media Quiries */
+
+@media only screen and (min-width: 764px) {
   header {
   text-align: unset;
   padding: 20px 0 13px;
 }
+
   nav {
     display: inline-block;
     width: auto;
     float: right;
     margin-top: 4px;
-  }
+}
+
   .navtoggle li:not(:last-child) {
   display: inline-block;
 }
 
+  .navtoggle li .icon {
+  display: none;
+}
   [class*="col-"] {
   float: left;
   padding: 10px;
 }
-.col-md-6 {
-width: 41.66%;
+
+  .col-md-6 {
+  width: 41.66%;
 }
+
   .col-md-6 {
   width: 50%;
 }
-.col-md-7 {
-width: 58.33%;
+
+  .col-md-7 {
+  width: 58.33%;
 }
 
 @media only screen and (min-width: 1024px) {
