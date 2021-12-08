@@ -6,6 +6,3 @@ function menuToggle() {
     x.className = 'navtoggle';
   }
 }
-.navtoggle li .icon {
-display: none;
-}
