@@ -91,11 +91,12 @@ nav > ul > li > a {
 }
 
 .navtoggle li .icon {
+  color: #FAFAFA;
   position: absolute;
   right: 0;
   top: 2px;
   font-size: 20px;
-  padding-right: 0
+  padding-right: 0;
 }
 .navtoggle.responsive nav {
   padding: 24px 0 0;
