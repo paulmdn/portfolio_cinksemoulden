@@ -60,7 +60,7 @@ header {
   padding-right: 10px;
   padding-bottom: 0px;
   padding-left: 10px;
-  margin: 10px 10px 0px 10px;
+  margin: 10px 0px 0px 10px;
   text-align: center;
   /*box-shadow: inset -2px -3px 3px 0px rgba(50, 50, 50, 0.75) removing it temporarily*/
 }
@@ -209,10 +209,10 @@ a:active {
 }
 
 .menu {
-  color: #37474F
+  color: #FAFAFA
 }
 .menu:visited {
-  color: #FAFAFA
+  color: #CFD8DC
 }
 
 
