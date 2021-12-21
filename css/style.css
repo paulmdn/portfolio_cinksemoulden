@@ -36,8 +36,7 @@ padding: 10px 5px 15px 5px;  Adds 10px top, 5px right, 15px bottom, 5px left
 [animation-delay] [animation-iteration-count] [animation-direction]
 [animation-fill-mode] [animation-play-state]; */
 
-html {scroll-behavior: smooth;}
-* {
+html {scroll-behavior: smooth;} {
   box-sizing: border-box;
 }
 body {
@@ -64,6 +63,7 @@ header {
   text-align: center;
   /*box-shadow: inset -2px -3px 3px 0px rgba(50, 50, 50, 0.75) removing it temporarily*/
 }
+
 
 
 nav > ul {
@@ -121,7 +121,7 @@ nav > ul > li > a:hover {
 
 nav > ul > li > a:focus {
   color: #FAFAFA;
-  text-decoration: SemiBold;
+  text-decoration: underline;
 }
 
 nav > ul > li > a:active {
@@ -182,13 +182,11 @@ a:active {
 
 .button {
   display: inline-block;
-  background-color:
   color: #212121;
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
   border: 2px solid #212121; /* width of the border, type, color */
-  transition-duration: : 0.2s opacity;
 }
 
 .button:hover {
@@ -361,7 +359,7 @@ footer {
 @media only screen and (min-width: 764px) {
   header {
   text-align: unset;
-  padding: 20px 0 13px;
+  padding: 20px 0px 10px 10px;
 }
 
   nav {
