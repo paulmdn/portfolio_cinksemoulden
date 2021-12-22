@@ -36,9 +36,9 @@ padding: 10px 5px 15px 5px;  Adds 10px top, 5px right, 15px bottom, 5px left
 [animation-delay] [animation-iteration-count] [animation-direction]
 [animation-fill-mode] [animation-play-state]; */
 
-html {scroll-behavior: smooth;} {
-  box-sizing: border-box;
-}
+html {scroll-behavior: smooth;}
+* {box-sizing: border-box;}
+
 body {
   background-color: #212121;
  font-family: 'Roboto', sans-serif;
